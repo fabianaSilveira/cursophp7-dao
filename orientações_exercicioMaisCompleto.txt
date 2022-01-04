@@ -1,0 +1,29 @@
+Para aponta o repositorio ao dir criado no github
+
+=> Na pasta abrir git bash(bt dir do mause)
+C:\xampp\htdocs\dao
+
+fabiana.silveira@JC5658 MINGW64 /c/xampp/htdocs/dao
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/dao/.git/
+
+
+=>fazer clone
+git clone https://github.com/fabianaSilveira/cursophp7-dao.git
+
+
+=> colocar no satge area
+git add --all
+
+=> fazer commit
+git commit -m "iniciado o projeto"
+[master (root-commit) 97a8cca] iniciado o projeto
+ 5 files changed, 174 insertions(+)
+ create mode 100644 class/Sql.php
+ create mode 100644 class/Usuario.php
+ create mode 100644 config.php
+ create mode 100644 index.php
+ create mode 100644 "orienta\303\247\303\265es_exercicioMaisCompleto.txt"
+
+=>fazer push
+https://github.com/fabianaSilveira/cursophp7-dao.git
