@@ -7,11 +7,14 @@ fabiana.silveira@JC5658 MINGW64 /c/xampp/htdocs/dao
 $ git init
 Initialized empty Git repository in C:/xampp/htdocs/dao/.git/
 
+=> copiar o enderço do github
+git remote add origin https://github.com/fabianaSilveira/cursophp7-dao.git
 
-=>fazer clone
-git clone https://github.com/fabianaSilveira/cursophp7-dao.git
+=> pull do master, se tiver alguma coisa baixa
+git pull origin master
 
 
+===para fazer push para o repositorio no github
 => colocar no satge area
 git add --all
 
@@ -26,4 +29,4 @@ git commit -m "iniciado o projeto"
  create mode 100644 "orienta\303\247\303\265es_exercicioMaisCompleto.txt"
 
 =>fazer push
-https://github.com/fabianaSilveira/cursophp7-dao.git
+git push origin master
